@@ -11,3 +11,7 @@ This project is part of Matlab Simulink Challenge to provide ideas for Unmanned 
 8. Develop a task planning algorithm that considers planning pickups, and delivery tasks, and allotting them to appropriate drones. Further, optimize this process using the Optimization toolbox.
 9. Complement the 3D path planning algorithm with the task planning algorithm and test them in a photorealistic simulation of an urban environment.
 9. Develop a decentralized obstacle avoidance algorithm to avoid obstacles (dynamic/static) if they come in a nearby range. Integrate it with the rest of the system.
+
+## Progress
+A 3D urban UAV cuboid scenario created using openstreet osm
+![Budapest UAV Scenario](Results/figures/budapest_urban_scenario.png)
