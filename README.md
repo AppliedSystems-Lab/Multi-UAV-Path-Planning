@@ -17,5 +17,5 @@ A 3D urban UAV environment has been created for Budapest and Pécs using real te
 
 |  |  |
 |---|---|
-| ![Budapest urban OSM](Results/figures/budapest_urban_scenario.png) | ![Pécs urban OSM](Results/figures/Pecs_Urban_Scenario.png) |
+| ![Budapest urban OSM](Results/figures/Budapest_urban_scenario.png) | ![Pécs urban OSM](Results/figures/Pecs_Urban_Scenario.png) |
 | **Budapest urban OSM** | **Pécs urban OSM** |
