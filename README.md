@@ -15,4 +15,4 @@ This project is part of Matlab Simulink Challenge to provide ideas for Unmanned 
 ## Progress
 A 3D urban UAV scenario has been created using real Budapest terrain and OpenStreetMap building data.
 
-![Budapest UAV Scenario](Results/figures/budapest_urban_scenario.png)
+![Budapest UAV Scenario](Results/figures/Budapest_urban_scenario.png)
