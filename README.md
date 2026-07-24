@@ -13,6 +13,9 @@ This project is part of Matlab Simulink Challenge to provide ideas for Unmanned 
 9. Develop a decentralized obstacle avoidance algorithm to avoid obstacles (dynamic/static) if they come in a nearby range. Integrate it with the rest of the system.
 
 ## Progress
-A 3D urban UAV scenario has been created using real Budapest terrain and OpenStreetMap building data.
+A 3D urban UAV environment has been created for Budapest and Pécs using real terrain and OpenStreetMap building data.
 
-![Budapest UAV Scenario](Results/figures/Budapest_urban_scenario.png)
+|  |  |
+|---|---|
+| ![Budapest urban OSM](Results/figures/budapest_urban_scenario.png) | ![Pécs urban OSM](Results/figures/Pecs_Urban_Scenario.png) |
+| **Budapest urban OSM** | **Pécs urban OSM** |
