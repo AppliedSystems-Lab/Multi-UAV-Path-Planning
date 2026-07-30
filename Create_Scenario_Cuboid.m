@@ -8,6 +8,6 @@ xbuilding_limit = [-400 400];
 ybuilding_limit = [-400 400];
 color = [0.6431 0.8706 0.6275];
 osmInfo = addMesh(scene,"buildings",{'Geo_data/budapest.osm',xbuilding_limit,ybuilding_limit,"auto"},color,Verbose=true);
-%show3D(scene);
+show3D(scene);
 
 end
