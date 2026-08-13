@@ -15,10 +15,10 @@ This project is part of Matlab Simulink Challenge to provide ideas for Unmanned 
 ## Progress
 A 3D urban UAV environment has been created for Budapest and Pécs using real terrain and OpenStreetMap building data.
 
-|  |  |
-|---|---|
-| ![Budapest urban OSM](Results/figures/Budapest_urban_scenario.png) | ![Pécs urban OSM](Results/figures/Pecs_Urban_Scenario.png) |
-| **Budapest urban OSM** | **Pécs urban OSM** |
+
+
+ ![Budapest urban OSM](Results/figures/Budapest_urban_scenario.png) 
+ **Budapest urban OSM**  
 
 ### GNSS
 
@@ -31,7 +31,34 @@ A 3D urban UAV environment has been created for Budapest and Pécs using real te
 |:--:|
 | **A simple mission in scenario.** |
 
-### Basics
+
+### UAV Delivery Mission
+
 | ![Budapest UAV delivery mission](Results/figures/budapest_single_mission.gif) |
 |:--:|
-|**Basic land and hover function**|
+| **Takeoff, waypoint navigation, delivery hover, return, and landing mission.** |
+
+### LiDAR Mapping
+
+A UAV performs an aerial survey of the environment using simulated LiDAR.  
+The collected point clouds are used to construct a 3D occupancy map of the surrounding terrain and buildings.
+
+| ![LiDAR occupancy map](Results/figures/LIDAR_Occupancy_Map.png) |
+|:--:|
+| **3D occupancy map generated from UAV LiDAR measurements.** |
+
+### Autonomous Path Planning with RRT*
+
+The generated occupancy map is inflated to introduce an obstacle safety margin and is then used by an RRT* planner to generate a collision free 3D route between a start and goal position.
+
+| ![RRT occupancy map](Results/figures/RRT_Occupancy_Map.png) |
+|:--:|
+| **Collision free RRT* path generated through the LiDAR derived occupancy map.** |
+
+### Autonomous UAV Flight
+
+The RRT* path is converted into a UAV trajectory and executed by the same UAV inside the scenario.
+
+| ![RRT UAV flight](Results/figures/RRT_UAV_Flight.png) |
+|:--:|
+| **UAV executing the automatically generated RRT* trajectory.** |
