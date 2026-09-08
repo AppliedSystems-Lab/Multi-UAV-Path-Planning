@@ -85,7 +85,7 @@ plot3( ...
     "-o", ...
     'LineWidth', 1.5);
 
-%% Create lidar point-cloud plot
+%% Create lidarcloud plot
 lidarPlot = scatter3( ...
     NaN, ...
     NaN, ...
@@ -112,7 +112,7 @@ while isgraphics(figHandle) && advance(scene)
     updateSensors(scene);
     [isUpdated, ~, pointCloudData] = read(lidar);
 
-    % The window may have been closed during advance
+    % rm folder
     if ~isgraphics(figHandle)
         break;
     end
