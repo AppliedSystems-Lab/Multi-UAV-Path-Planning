@@ -62,3 +62,14 @@ The RRT* path is converted into a UAV trajectory and executed by the same UAV in
 | ![RRT UAV flight](Results/figures/RRT_UAV_Flight.png) |
 |:--:|
 | **UAV executing the automatically generated RRT* trajectory.** |
+
+### RRT Path planning for two UAVs
+In the Multi_UAV_Planner file, we used the previous script of the RRT* algorithm and plotted a second UAV using the same algorithm.
+| ![Two UAV Paths](Results/figures/TwoUAVs_RRT.png) |
+|:--:|
+| **Two UAVs with colliding/intersecting RRT* paths** |
+
+Also, for this section I tried to plot the separation graph between two assumed UAVs, so later on we can add a threshold of minimum separation difference so we can predict where the UAVs may collide depending on there path(Useful when the airspace is saturated)
+|![Separation Graph for two UAVs](Results/figures/Separation_Graph_two_UAVs.png) |
+|:--:|
+|**You can probably tell the distance is reducing between these two**|
