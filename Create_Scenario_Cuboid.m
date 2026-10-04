@@ -1,5 +1,5 @@
 function scene = Create_Scenario_Cuboid()
-scene = uavScenario(UpdateRate=10,StopTime=100,ReferenceLocation=[47.50711856431289, 19.047039706097962 0]);
+scene = uavScenario(UpdateRate=10,StopTime=160,ReferenceLocation=[47.50711856431289, 19.047039706097962 0]);
 xlimits = [-400 400];
 ylimits = [-400 400];
 color = [0.6 0.6 0.6];
